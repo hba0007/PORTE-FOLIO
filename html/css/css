@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* ou row, row-reverse, column-reverse */
+    height: 100%; /* ou une hauteur fixe */
+  }
+  
+  .container img {
+    max-width: 100%;
+    height: auto;
+  }
+  <div class="container">
+    <img src="image.jpg" alt="Mon image">
+  </div>
+  
